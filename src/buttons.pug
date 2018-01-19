@@ -1,0 +1,66 @@
+extends layouts/base
+
+append config
+  - var pageTitle = 'Buttons'
+  - var bodyClass = 'buttons'
+
+block content
+  h1 Buttons
+
+  h2 Button Element
+
+  button.c-btn Generic Button
+
+  button.c-btn.c-btn--primary Primary Button
+
+  h2 Anchor Element
+  a.c-btn.c-btn--primary(href='buttons.html') Link Button
+
+  h2 Input Element
+  input.c-btn.c-btn--primary(type='submit' value='Submit')
+
+  h2 Buttons with icons
+  a.c-btn.c-btn--primary(href='buttons.html')
+    svg.icon.icon-heart
+      use(xlink:href="assets/icons/symbol-defs.svg#icon-heart")
+    |  Favourite
+
+  a.c-btn.c-btn--primary(href='buttons.html') Register
+    svg.icon.icon-arrow-right
+      use(xlink:href="assets/icons/symbol-defs.svg#icon-arrow-right")
+
+  a.c-btn.c-btn--primary.c-btn--large(href='buttons.html')
+    svg.icon.icon-heart
+      use(xlink:href="assets/icons/symbol-defs.svg#icon-heart")
+
+  a.c-btn.c-btn--primary(href='buttons.html')
+    svg.icon.icon-heart
+      use(xlink:href="assets/icons/symbol-defs.svg#icon-heart")
+
+  a.c-btn.c-btn--primary.c-btn--small(href='buttons.html')
+    svg.icon.icon-heart
+      use(xlink:href="assets/icons/symbol-defs.svg#icon-heart")
+
+
+  h2 Icon Links
+  p Icon size set with ems
+  a.c-icon-link.c-icon-link--primary(href='buttons.html')
+    svg.icon.icon-heart.icon-default
+      use(xlink:href="assets/icons/symbol-defs.svg#icon-heart")
+
+  p Icon size set with font-size in px
+  a.c-icon-link.c-icon-link--primary(href='buttons.html')
+    svg.icon.icon-heart.icon-24
+      use(xlink:href="assets/icons/symbol-defs.svg#icon-heart")
+
+  p Both approaches above give perfectly square icons based on the icon grid of 24px. If we want icon size of 16px we will have to modify the width.
+
+  p 16px Icon width set in ems to 1.5em because line-height is 24px
+  a.c-icon-link.c-icon-link--primary(href='buttons.html')
+    svg.icon.icon-heart.icon-16
+      use(xlink:href="assets/icons/symbol-defs.svg#icon-heart")
+
+  p Remove line-height but keep base font size of 16px
+  a.c-icon-link.c-icon-link--primary.no-line-height(href='buttons.html')
+    svg.icon.icon-heart
+      use(xlink:href="assets/icons/symbol-defs.svg#icon-heart")

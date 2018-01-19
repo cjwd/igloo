@@ -1,0 +1,24 @@
+
+/*=============================================
+=           #Article / Blog Post            =
+=============================================*/
+.c-article {
+  max-width: 40rem;
+
+  p {
+    max-width: 35em;
+  }
+}
+
+  .c-article__excerpt {
+    font-style: italic;
+  }
+
+  .c-article__byline-dateline {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    @include mb();
+  }
+
+

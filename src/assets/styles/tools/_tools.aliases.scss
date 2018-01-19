@@ -1,0 +1,22 @@
+
+/*=============================================
+=            #Aliases            =
+=============================================*/
+
+// Reassign `$inuit-global-spacing-unit` to `$unit`.
+$unit: $inuit-global-spacing-unit;
+$unit-tiny: $inuit-global-spacing-unit-tiny;
+$unit-small: $inuit-global-spacing-unit-small;
+$unit-large: $inuit-global-spacing-unit-large;
+$unit-huge: $inuit-global-spacing-unit-huge;
+
+$factor-tiny: $inuit-global-spacing-unit-factor-tiny;
+$factor-small: $inuit-global-spacing-unit-factor-small;
+$factor-large: $inuit-global-spacing-unit-factor-large;
+$factor-huge: $inuit-global-spacing-unit-factor-huge;
+
+
+// Reassign lengthy font-size mixin to `font-size()`.
+@mixin font-size($args...) {
+  @include inuit-font-size($args...);
+}

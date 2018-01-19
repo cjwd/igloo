@@ -1,0 +1,35 @@
+extends layouts/base
+
+append config
+  - var pageTitle = 'Sample Article'
+  - var bodyClass = 'article single'
+
+block content
+  article.c-article
+    header.c-article-header
+        .c-article__meta
+          h1.c-article__headline Jason Jeffers: stories like ours | Snapshot
+
+    p.c-article__excerpt His passion for film started when he was growing up in Barbados. It led Jason Jeffers to make the award-winning short documentary Papa Machete, and to found the Third Horizon Caribbean Film Festival in Miami. What these initiatives have in common, he tells Nailah Folami Imoja, is a dedication to telling Caribbean stories and changing the way the world imagines our islands
+
+    div.c-article__byline-dateline
+      span.byline By &nbsp;
+        a(href="#") Nailah Folami Imoja
+      span.dateline Issue 147 September/October 2017
+      span.comments 0 comments
+
+    figure
+      img(src="http://via.placeholder.com/1000x500", alt="Featured Image")
+      figcaption This is the caption for the image
+
+    blockquote “Caribbean history is more important now, in these times when we are dealing with Brexit and Trump and the concept of diversity, than ever before,” says filmmaker Jason Jeffers. “There is nowhere more diverse than the Caribbean. If you want to investigate diversity, the Caribbean, as a laboratory, can provide profound insight into what the modern world is dealing with.”
+
+    p Jeffers is clearly passionate about his role in exploring diversity and sharing his discoveries, through film and music, with others.“I recognise the need to educate my audience about the art, music, and film of the Caribbean,” he adds. “There is a need to re-educate people’s definition of the Caribbean — to recreate the popular imagination.”
+
+    p At the age of thirty-seven, Jeffers is doing just that, with an award-winning and internationally celebrated short film, Papa Machete (co-written with Keisha Rae Witherspoon), under his belt, along with production credits for two other recognised shorts, Swimming in Your Skin Again and Dolfun.
+
+    figure
+      img(src="http://via.placeholder.com/1000x500", width="1000", height="500" alt="Featured Image")
+      figcaption This is the caption for the image
+
+    p Born in Canada to Barbadian Margaret and Montserratian Hugh (now deceased), Jeffers moved to Barbados at the age of three. He received his primary, secondary, and tertiary education there, studying law, information technology, and English literature at the Barbados Community College. “I’ve always had this strong sense of justice, so I thought for a minute that I would be a lawyer,” he says, “but then I felt I could find more justice through the pen than in the courtroom. So I went to Florida International University and studied journalism for three years.”

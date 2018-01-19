@@ -1,0 +1,23 @@
+extends layouts/base
+
+append config
+  - var pageTitle = 'Form Elements'
+  - var bodyClass = 'form-elements'
+
+block content
+  h1 Form Elements
+
+  label(for="email") Email Address
+  input(type="email" id="email")
+
+  label(for="password") Password
+  input(type="password" id="password")
+
+  label(for="text") Normal Text Input
+  input(type="text" id="text")
+
+
+  .o-field
+    label(for="text") Input Field
+    .o-control
+      input(type="text" id='text')

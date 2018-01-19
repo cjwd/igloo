@@ -1,0 +1,12 @@
+{
+  "name": "igloo",
+  "version": "1.0.0",
+  "description": "A set of my own opinionated components built on top of the inuitcss framework",
+  "main": "main.css",
+  "author": "Chinara James",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "inuitcss": "^6.0.0-beta.5"
+  }
+}
