@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26148",
 "files": {
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/.gitignore",
+		"oF": 0
+		},
 	"\/dist": {
 		"ft": 65536,
 		"oA": 1,
@@ -28,6 +35,15 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/src\/article.1.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/dist\/article.1.html",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/src\/article.pug": {
 		"cB": 0,
@@ -246,7 +262,8 @@
 	"creationDate": 530910860,
 	"displayValue": "igloo",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-trap"
+	"iconImageName": "meme-trap",
+	"lastBuiltDate": 538160506
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
