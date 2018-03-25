@@ -1,0 +1,146 @@
+// Predefine the variables below in order to alter and enable specific features.
+
+$igloo-table-border-width : 1px !default;
+$igloo-table-border-style : solid !default;
+$igloo-table-border-color : #ccc !default;
+
+$igloo-enable-table--fixed : false !default;
+$igloo-enable-table--compact : false !default;
+$igloo-enable-table--cosy : false !default;
+$igloo-enable-table--comfy : false !default;
+$igloo-enable-table--cells : false !default;
+$igloo-enable-table--rows : false !default;
+$igloo-enable-table--columns : false !default;
+
+$table-cell-padding: $unit;
+$table-border-width: 1px;
+$table-border-color: #ddd;
+
+.o-table {
+  th,
+  td {
+    padding: $table-cell-padding;
+    vertical-align: top;
+    border-top: $table-border-width solid $table-border-color;
+
+  }
+
+  thead th {
+    vertical-align: bottom;
+    border-bottom: (2 * $table-border-width) solid $table-border-color;
+  }
+
+  tbody+tbody {
+    border-top: (2 * $table-border-width) solid $table-border-color;
+  }
+
+}
+
+.o-table--fixed {
+  table-layout: fixed;
+}
+
+/*
+ * Tightly packed cells
+ */
+.o-table--compact {
+  th,
+  td {
+    padding: $unit-tiny;
+  }
+}
+
+/*
+ * Lightly packed cells
+ */
+.o-table--cosy {
+  th,
+  td {
+    padding: $unit-small;
+  }
+}
+
+/*
+ * Widely padded cells
+ */
+.o-table--comfy {
+  th,
+  td {
+    padding: $unit-large;
+  }
+}
+
+/**
+ * Bordered tables
+ */
+.o-table--bordered {
+  th,
+  td {
+    border: $igloo-table-border-width $igloo-table-border-style $igloo-table-border-color;
+    &:empty {
+      border: none;
+    }
+  }
+
+  thead tr:last-child th {
+    border-bottom-width: 2px;
+  }
+
+  tbody tr th:last-of-type {
+    border-right-width: 2px;
+  }
+}
+
+/**
+ * Striped tables
+ */
+
+.o-table--striped {
+  tbody tr:nth-of-type(odd) {
+    background-color: #ffc;
+    /* Override this color in your theme stylesheet */
+  }
+}
+
+
+.o-table--rows {
+  &,
+  th,
+  td {
+    border: 0 $igloo-table-border-style $igloo-table-border-color;
+  }
+}
+
+.o-table--rows {
+  border-top-width: $igloo-table-border-width;
+  th,
+  td {
+    border-bottom-width: $igloo-table-border-width;
+  }
+}
+
+.o-table--columns {
+  &,
+  th,
+  td {
+    border: 0 $igloo-table-border-style $igloo-table-border-color;
+  }
+}
+
+.o-table--columns {
+  border-left-width: $igloo-table-border-width;
+  th,
+  td {
+    border-right-width: $igloo-table-border-width;
+  }
+}
+
+.o-table-thead--light {
+  background-color: $igloo-table-border-color;
+  color: #333;
+}
+
+.o-table-thead--dark {
+  background-color: #444;
+  color: white;
+}
