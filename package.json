@@ -8,5 +8,8 @@
   "private": true,
   "dependencies": {
     "inuitcss": "^6.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.5.0"
   }
 }
