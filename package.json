@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "A set of my own opinionated components built on top of the inuitcss framework",
   "main": "main.css",
+  "scripts": {
+    "build": "webpack",
+    "production": "NODE_ENV=production webpack",
+    "watch": "npm run buid -- --watch"
+  },
   "author": "Chinara James",
   "license": "MIT",
   "private": true,
@@ -10,6 +15,19 @@
     "inuitcss": "^6.0.0"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "img-loader": "^2.0.1",
+    "node-sass": "^4.8.3",
+    "purify-css": "^1.2.5",
+    "purifycss-webpack": "^0.7.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.20.3",
     "webpack": "^4.5.0"
   }
 }
