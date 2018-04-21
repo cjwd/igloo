@@ -1,0 +1,81 @@
+extends layouts/base
+
+block content
+  h1 Form Elements
+
+  .o-field
+    label.o-label(for="text") Label
+    .o-control
+      input.o-textInput(type="text" id="text" placeholder="Text Input")
+    p.o-helpText.u-textMuted This is help text
+
+  form(action="")
+    fieldset
+      legend Text Fields
+      .o-field
+        label.o-label(for="text") Normal Text Field
+        .o-control
+          input.o-textInput(type="text" name="text" id="text" placeholder="Generic Text Field")
+
+      .o-field
+        label.o-label(for="email") Email
+        .o-control
+          input.o-textInput(type="email" name="email" id="email" placeholder="Generic Text Field")
+
+      .o-field
+        label.o-label(for="password") Password
+        .o-control
+          input.o-textInput(type="password" name="password" id="password" placeholder="Generic Text Field")
+
+      .o-field
+        label.o-label(for="tel") Telephone Number
+        .o-control
+          input.o-textInput(type="tel" name="tel" id="tel" placeholder="Generic Text Field")
+
+      .o-field
+        label.o-label(for="number") Number
+        .o-control
+          input.o-textInput(type="number" name="number" id="number" placeholder="Generic Text Field")
+
+      .o-field
+        label.o-label(for="date") Date
+        .o-control
+          input.o-textInput(type="date" name="date" id="date" placeholder="Generic Text Field")
+
+    fieldset
+      legend Toggles
+
+      label.o-checkbox
+        input(type="checkbox")
+        |  I agree to the
+        |
+        a(href="#") terms and conditions
+
+
+      label.o-radio
+        input(type="radio")
+        |  Yes
+
+      label.o-radio
+        input(type="radio")
+        |  No
+
+      .o-field
+        label.o-radio
+          input(type="radio")
+          |  Yes
+
+        label.o-radio
+          input(type="radio")
+          |  No
+
+    input(type="submit" value="Submit")
+
+  input(type="range")
+
+  label Your favourite fruit:
+    input(type="text" name="fruit" list="fruits")
+    datalist#fruits
+      option(value="Blackberry") Blackberry
+      option(value="Blackcurrant") Blackcurrant
+      option(value="Blueberry") Blueberry

@@ -110,6 +110,7 @@
 @import "../../../node_modules/inuitcss/elements/elements.headings";
 @import "../../../node_modules/inuitcss/elements/elements.images";
 @import "../../../node_modules/inuitcss/elements/elements.tables";
+@import "elements/elements.tables";
 @import "elements/elements.buttons";
 
 
@@ -130,7 +131,9 @@
 @import "../../../node_modules/inuitcss/objects/objects.ratio";
 @import "../../../node_modules/inuitcss/objects/objects.crop";
 @import "../../../node_modules/inuitcss/objects/objects.table";
+@import "objects/objects.tables";
 @import "../../../node_modules/inuitcss/objects/objects.pack";
+@import "objects/objects.form";
 
 .icon {
   display: inline-block;
@@ -149,7 +152,7 @@
  * For perfectly square icons either change the default size to 1.5em x 1.5em
  * because base line-height is 24px but base font size is 16 so you icon sizes by default
  * will be 16x24
- * To get the icons to 24px or increase font-size of the icons to 24px
+ * To get the icons to 24px increase font-size of the icons to 24px
  *
  */
 

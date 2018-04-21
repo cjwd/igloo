@@ -1,0 +1,36 @@
+/*=============================================
+=                #Form Elements               =
+=============================================*/
+$igloo-input-border-color: #ccc;
+$igloo-input-border-radius: $global-radius;
+
+.o-label {
+  display: block;
+  font-weight: bold;
+}
+
+.o-textInput {
+  width: 100%;
+  padding: $unit-tiny;
+  border: 1px solid $igloo-input-border-color;
+  border-radius: $igloo-input-border-radius;
+
+  &:hover {
+    border-color: #333;
+  }
+
+  &:focus {
+    border-color: lightblue;
+  }
+}
+
+.o-helpText {
+  @include font-size(12px);
+}
+
+
+
+.o-field {
+  @include mb();
+}
+
