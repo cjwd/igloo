@@ -2,12 +2,14 @@
 # yarn lockfile v1
 
 
-inuitcss@^6.0.0-beta.5:
-  version "6.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/inuitcss/-/inuitcss-6.0.0-beta.5.tgz#f0d128ae00f85f14005ebbc109e99ed7ddfce29f"
+inuitcss@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/inuitcss/-/inuitcss-6.0.0.tgz#164a2557736a29a9874f99c6165174d996ea6a53"
+  integrity sha512-FnyXNy2WSzSli4INmgtrsFwkzDljabK583AoC7KZutB6m8bVrAzjZ7jadro4N4RcqQRpMlW88NwgHIWgD7CDrg==
   dependencies:
-    sass-mq "^3.2.9"
+    sass-mq "^3.3.2"
 
-sass-mq@^3.2.9:
+sass-mq@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/sass-mq/-/sass-mq-3.3.2.tgz#3472e04c31a432bcd55b3b604edc72ae9a4def1a"
+  integrity sha1-NHLgTDGkMrzVWztgTtxyrppN7xo=
