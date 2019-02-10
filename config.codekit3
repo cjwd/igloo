@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,28 +7,35 @@
 		"uuidString": "D7C9E189-B1E1-40BB-B800-1FEA7B58C24A"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "28905",
 "files": {
-	"\/.gitignore": {
+	"/.babelrc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/.gitignore",
-		"oF": 0
+		"oA": 1,
+		"oAP": "/dist/.babelrc",
+		"oF": 1
 		},
-	"\/dist": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/dist/.gitignore",
+		"oF": 1
+		},
+	"/dist": {
 		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/dist\/dist",
+		"oAP": "/dist/dist",
 		"oF": 0
 		},
-	"\/node_modules": {
+	"/node_modules": {
 		"ft": 65536,
-		"oA": 2,
-		"oAP": "\/dist\/node_modules",
+		"oA": 1,
+		"oAP": "/dist/node_modules",
 		"oF": 0
 		},
-	"\/node_modules\/inuitcss\/elements\/_elements.headings.scss": {
+	"/node_modules/inuitcss/elements/_elements.headings.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -36,12 +43,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_elements.headings.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_elements.headings.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/elements\/_elements.images.scss": {
+	"/node_modules/inuitcss/elements/_elements.images.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -49,12 +56,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_elements.images.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_elements.images.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/elements\/_elements.page.scss": {
+	"/node_modules/inuitcss/elements/_elements.page.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -62,12 +69,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_elements.page.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_elements.page.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/elements\/_elements.tables.scss": {
+	"/node_modules/inuitcss/elements/_elements.tables.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -75,12 +82,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_elements.tables.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_elements.tables.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/generic\/_generic.box-sizing.scss": {
+	"/node_modules/inuitcss/generic/_generic.box-sizing.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -88,12 +95,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_generic.box-sizing.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_generic.box-sizing.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/generic\/_generic.normalize.scss": {
+	"/node_modules/inuitcss/generic/_generic.normalize.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -101,12 +108,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_generic.normalize.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_generic.normalize.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/generic\/_generic.reset.scss": {
+	"/node_modules/inuitcss/generic/_generic.reset.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -114,12 +121,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_generic.reset.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_generic.reset.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/generic\/_generic.shared.scss": {
+	"/node_modules/inuitcss/generic/_generic.shared.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -127,12 +134,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_generic.shared.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_generic.shared.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/objects\/_objects.block.scss": {
+	"/node_modules/inuitcss/objects/_objects.block.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -140,12 +147,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_objects.block.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_objects.block.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/objects\/_objects.box.scss": {
+	"/node_modules/inuitcss/objects/_objects.box.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -153,12 +160,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_objects.box.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_objects.box.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/objects\/_objects.crop.scss": {
+	"/node_modules/inuitcss/objects/_objects.crop.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -166,12 +173,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_objects.crop.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_objects.crop.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/objects\/_objects.flag.scss": {
+	"/node_modules/inuitcss/objects/_objects.flag.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -179,12 +186,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_objects.flag.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_objects.flag.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/objects\/_objects.layout.scss": {
+	"/node_modules/inuitcss/objects/_objects.layout.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -192,12 +199,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_objects.layout.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_objects.layout.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/objects\/_objects.list-bare.scss": {
+	"/node_modules/inuitcss/objects/_objects.list-bare.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -205,12 +212,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_objects.list-bare.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_objects.list-bare.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/objects\/_objects.list-inline.scss": {
+	"/node_modules/inuitcss/objects/_objects.list-inline.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -218,12 +225,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_objects.list-inline.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_objects.list-inline.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/objects\/_objects.media.scss": {
+	"/node_modules/inuitcss/objects/_objects.media.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -231,12 +238,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_objects.media.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_objects.media.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/objects\/_objects.pack.scss": {
+	"/node_modules/inuitcss/objects/_objects.pack.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -244,12 +251,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_objects.pack.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_objects.pack.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/objects\/_objects.ratio.scss": {
+	"/node_modules/inuitcss/objects/_objects.ratio.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -257,12 +264,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_objects.ratio.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_objects.ratio.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/objects\/_objects.table.scss": {
+	"/node_modules/inuitcss/objects/_objects.table.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -270,12 +277,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_objects.table.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_objects.table.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/objects\/_objects.wrapper.scss": {
+	"/node_modules/inuitcss/objects/_objects.wrapper.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -283,12 +290,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_objects.wrapper.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_objects.wrapper.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/settings\/_settings.core.scss": {
+	"/node_modules/inuitcss/settings/_settings.core.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -296,12 +303,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_settings.core.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_settings.core.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/tools\/_tools.clearfix.scss": {
+	"/node_modules/inuitcss/tools/_tools.clearfix.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -309,12 +316,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_tools.clearfix.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_tools.clearfix.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/tools\/_tools.font-size.scss": {
+	"/node_modules/inuitcss/tools/_tools.font-size.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -322,12 +329,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_tools.font-size.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_tools.font-size.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/tools\/_tools.hidden.scss": {
+	"/node_modules/inuitcss/tools/_tools.hidden.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -335,12 +342,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_tools.hidden.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_tools.hidden.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/utilities\/_utilities.clearfix.scss": {
+	"/node_modules/inuitcss/utilities/_utilities.clearfix.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -348,12 +355,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_utilities.clearfix.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_utilities.clearfix.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/utilities\/_utilities.headings.scss": {
+	"/node_modules/inuitcss/utilities/_utilities.headings.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -361,12 +368,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_utilities.headings.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_utilities.headings.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/utilities\/_utilities.hide.scss": {
+	"/node_modules/inuitcss/utilities/_utilities.hide.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -374,12 +381,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_utilities.hide.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_utilities.hide.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/utilities\/_utilities.print.scss": {
+	"/node_modules/inuitcss/utilities/_utilities.print.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -387,12 +394,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_utilities.print.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_utilities.print.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/utilities\/_utilities.responsive-spacings.scss": {
+	"/node_modules/inuitcss/utilities/_utilities.responsive-spacings.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -400,12 +407,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_utilities.responsive-spacings.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_utilities.responsive-spacings.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/utilities\/_utilities.spacings.scss": {
+	"/node_modules/inuitcss/utilities/_utilities.spacings.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -413,12 +420,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_utilities.spacings.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_utilities.spacings.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/inuitcss\/utilities\/_utilities.widths.scss": {
+	"/node_modules/inuitcss/utilities/_utilities.widths.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -426,12 +433,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/inuitcss\/css\/_utilities.widths.css",
+		"oAP": "/dist/node_modules/inuitcss/css/_utilities.widths.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/sass-mq\/_mq.scss": {
+	"/node_modules/sass-mq/_mq.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -439,58 +446,66 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/node_modules\/css\/_mq.css",
+		"oAP": "/dist/node_modules/css/_mq.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/package.json": {
+	"/package-lock.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/dist\/package-min.json",
+		"oAP": "/dist/package-lock-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/src\/article.1.pug": {
+	"/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/dist/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/src/article.1.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/dist\/article.1.html",
+		"oAP": "/dist/article.1.html",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/src\/article.pug": {
+	"/src/article.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/dist\/article.html",
+		"oAP": "/dist/article.html",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/src\/assets\/icons\/symbol-defs.svg": {
+	"/src/assets/icons/symbol-defs.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/assets\/icons\/symbol-defs.svg",
+		"oAP": "/dist/assets/icons/symbol-defs.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/assets\/js\/svgxuse.js": {
+	"/src/assets/js/svgxuse.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/dist\/assets\/js\/min\/svgxuse-min.js",
+		"oAP": "/dist/assets/js/min/svgxuse-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/src\/assets\/styles\/components\/components.article.scss": {
+	"/src/assets/styles/components/components.article.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -498,12 +513,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/assets\/styles\/css\/components.article.css",
+		"oAP": "/dist/assets/styles/css/components.article.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/assets\/styles\/components\/components.buttons.scss": {
+	"/src/assets/styles/components/components.buttons.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -511,12 +526,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/assets\/styles\/css\/components.buttons.css",
+		"oAP": "/dist/assets/styles/css/components.buttons.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/assets\/styles\/elements\/_elements.buttons.scss": {
+	"/src/assets/styles/elements/_elements.buttons.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -524,12 +539,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/assets\/styles\/css\/_elements.buttons.css",
+		"oAP": "/dist/assets/styles/css/_elements.buttons.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/assets\/styles\/elements\/_elements.tables.scss": {
+	"/src/assets/styles/elements/_elements.tables.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -537,12 +552,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/assets\/styles\/css\/_elements.tables.css",
+		"oAP": "/dist/assets/styles/css/_elements.tables.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/assets\/styles\/main.scss": {
+	"/src/assets/styles/main.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -550,12 +565,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/dist\/assets\/css\/main.css",
+		"oAP": "/dist/assets/css/main.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/assets\/styles\/objects\/_objects.form.scss": {
+	"/src/assets/styles/objects/_objects.form.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -563,12 +578,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/assets\/styles\/css\/_objects.form.css",
+		"oAP": "/dist/assets/styles/css/_objects.form.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/assets\/styles\/objects\/_objects.tables.scss": {
+	"/src/assets/styles/objects/_objects.tables.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -576,12 +591,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/assets\/styles\/css\/_objects.tables.css",
+		"oAP": "/dist/assets/styles/css/_objects.tables.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/assets\/styles\/settings\/settings.config.scss": {
+	"/src/assets/styles/settings/settings.config.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -589,12 +604,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/assets\/styles\/css\/settings.config.css",
+		"oAP": "/dist/assets/styles/css/settings.config.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/assets\/styles\/settings\/settings.global.scss": {
+	"/src/assets/styles/settings/settings.global.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -602,12 +617,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/assets\/styles\/css\/settings.global.css",
+		"oAP": "/dist/assets/styles/css/settings.global.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/assets\/styles\/tools\/_tools.aliases.scss": {
+	"/src/assets/styles/tools/_tools.aliases.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -615,116 +630,126 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/assets\/styles\/css\/_tools.aliases.css",
+		"oAP": "/dist/assets/styles/css/_tools.aliases.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/buttons.pug": {
+	"/src/buttons.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/dist\/buttons.html",
+		"oAP": "/dist/buttons.html",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/src\/config\/variables.pug": {
+	"/src/config/variables.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/dist\/config\/variables.html",
+		"oAP": "/dist/config/variables.html",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/src\/form-elements.pug": {
+	"/src/form-elements.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/dist\/form-elements.html",
+		"oAP": "/dist/form-elements.html",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/src\/form.pug": {
+	"/src/form.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/dist\/form.html",
+		"oAP": "/dist/form.html",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/src\/index.pug": {
+	"/src/index.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/dist\/index.html",
+		"oAP": "/dist/index.html",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/src\/layouts\/base.pug": {
+	"/src/layouts/base.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/dist\/layouts\/base.html",
+		"oAP": "/dist/layouts/base.html",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/src\/layouts\/shared\/footer.pug": {
+	"/src/layouts/shared/footer.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/dist\/layouts\/shared\/footer.html",
+		"oAP": "/dist/layouts/shared/footer.html",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/src\/layouts\/shared\/head.pug": {
+	"/src/layouts/shared/head.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/dist\/layouts\/shared\/head.html",
+		"oAP": "/dist/layouts/shared/head.html",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/src\/layouts\/shared\/js.pug": {
+	"/src/layouts/shared/js.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/dist\/layouts\/shared\/js.html",
+		"oAP": "/dist/layouts/shared/js.html",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/src\/tables.pug": {
+	"/src/tables.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/dist\/tables.html",
+		"oAP": "/dist/tables.html",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/src\/typography.pug": {
+	"/src/typography.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/dist\/typography.html",
+		"oAP": "/dist/typography.html",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/yarn.lock": {
+	"/webpack.config.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dist/min/webpack.config-min.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
+	"/yarn.lock": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/yarn.lock",
-		"oF": 0
+		"oA": 1,
+		"oAP": "/dist/yarn.lock",
+		"oF": 1
 		}
 	},
 "hooks": [
@@ -737,148 +762,101 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-trap",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 538160506
+	"lastBuiltDate": 546003306
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -890,7 +868,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -902,7 +901,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -938,53 +955,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -993,6 +1003,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 1,
 	"buildFolderName": "dist",
 	"cleanBuild": 1,
@@ -1350,6 +1361,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -1361,6 +1376,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -1406,6 +1425,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -1424,10 +1447,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -1626,9 +1645,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -1982,6 +2005,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -2010,6 +2037,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -2017,6 +2048,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 1,
@@ -2072,7 +2107,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -2132,7 +2167,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -2527,7 +2562,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -2546,7 +2580,7 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
@@ -2578,19 +2612,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 1,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -2646,7 +2680,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -2675,7 +2709,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -2699,36 +2733,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 2,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "src",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2736,11 +2804,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -2764,6 +2832,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -2780,7 +2852,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -2788,20 +2868,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -2816,6 +2908,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -2824,12 +2924,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -2840,11 +2948,19 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -2856,23 +2972,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2884,13 +3028,21 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "\/dist"
+	"websiteRelativeRoot": "/dist"
 	},
 "settingsFileVersion": "3"
 }
